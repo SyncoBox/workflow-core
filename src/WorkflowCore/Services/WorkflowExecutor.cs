@@ -129,6 +129,7 @@ namespace WorkflowCore.Services
                     Reference = workflow.Reference,
                     ExecutionPointerId = pointer.Id,
                     StepId = step.Id,
+                    StepName = step.Name,
                     WorkflowInstanceId = workflow.Id,
                     WorkflowDefinitionId = workflow.WorkflowDefinitionId,
                     Version = workflow.Version

@@ -7,5 +7,7 @@ namespace WorkflowCore.Models.LifeCycleEvents
         public string ExecutionPointerId { get; set; }
 
         public int StepId { get; set; }
+
+        public string StepName { get; set; }
     }
 }
